@@ -1,0 +1,100 @@
+body{
+    background-image: url(../image/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+display: flex;
+width: 800px;
+min-height: 402px;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+}
+
+.titulo-subtitulo{
+    margin:0 60px 0 50px;
+}
+
+.texto .titulo-subtitulo .titulo{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.texto .titulo-subtitulo .subtitulo{
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 11px;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+}
+
+.formulario .form{
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+.formulario .form .items .item .campo{
+    border: solid 1px #000000;
+    border-radius: 5px;
+    width: 298px;
+    height: 35px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px;
+    color:#000000;
+    
+}
+
+.formulario .form .items .item:first-child .campo{
+    margin-top: 0;
+}
+
+.formulario .form .items .item:last-child .campo{
+    height: 100px;
+}
+
+.formulario .form .items .item .campo::placeholder{
+    font-weight: 700;
+    color: #A8A8A8;
+}
+
+.formulario .form .obrigatorio{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+.formulario .form .btn{
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 298px;
+    height: 41px;
+    margin-top: 20px;
+    background-color: #3CCC87;
+    border: solid 1px #3CCC87;
+    border-radius: 5px;
+}
+
+.formulario .form .items .item .campo-vazio{
+    border-color: #F52E2E;
+}
+
+.formulario .form .items .item .campo-preenchido{
+    border-color: #00C22B;
+}
